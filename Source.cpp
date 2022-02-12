@@ -36,7 +36,8 @@ main
 
 		use std;
 		test pointer tes = new test();
-	
+		test pointer test2 = construct(test);
+		
 	
 	if 4 > 3 then
 
@@ -50,14 +51,18 @@ main
 
 	if 5 < 4 then failure end
 
-	a number named shitterfucker = 4;
-	a number pointer named fuckershitter = addressof shitterfucker;
+	number shitterfucker = 4;
+	number pointer fuckershitter = addressof shitterfucker;
 
 	void* p = allocate(50);
-	
+	any d = allocate(34);
+
 	dereferenced fuckershitter = 2;
 
 	string wordswords = "assref";
+
+	decimal castA = 0.003f;
+	number castB = cast(number) castA;
 
 	cout << dereferenced fuckershitter << endl;
 	cout << "Hello World!" << endl;

@@ -10,6 +10,8 @@
 #define integer int 
 #define number int
 #define dynamic auto
+#define decimal float
+#define any void*
 #ifndef _STRING_
 #define string const char*
 #endif
@@ -32,7 +34,8 @@
 #define main int main() {
 #define hold system("pause");
 #define allocate(x) malloc(x)
-
+#define cast(type) (type)
+#define construct(x) new x()
 
 #ifdef __cplusplus
 #define use using namespace
