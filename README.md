@@ -2,7 +2,7 @@
 simplified C/C++ for shorthand or new users 
 
 Mostly made for fun and to practice C/C++, CLite is a collection of macros that allow for more verbose/legible C/C++ code.
-It's meant for beginners or people that're too lazy to type certain things out manually. (i.e. "string g = "asdfasdfa"; in place of const char* characters = "sdafdaads"; ")
+It's meant for beginners or people that're too lazy to type certain things out manually. (i.e. in C: "string g = "asdfasdfa"; in place of const char* characters = "sdafdaads"; ")
 
 # Usage
 Download the "clite.h" header file and link it to your project.
